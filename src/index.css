@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import "tailwindcss";
+
+
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+
+.font-signature {
+  font-family: 'Great Vibes', cursive;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 18s linear infinite;
+}
+
+.stroke-text {
+  -webkit-text-stroke: 2px #7a1e1e;
+}
+
+.footerTitle{
+  @apply text-lg font-semibold mb-4 text-[#6a0610];
+}
+
+.footerLinks li{
+  @apply text-gray-600 text-sm mb-2 cursor-pointer transition duration-300;
+}
+
+.footerLinks li:hover{
+  @apply text-[#6a0610] translate-x-1;
+}
+
+.iconStyle{
+  @apply bg-white p-3 rounded-full shadow cursor-pointer transition duration-300;
+}
+
+.iconStyle:hover{
+  @apply bg-[#6a0610] text-white scale-110;
+}
+@keyframes orbit {
+  0% {
+    transform: rotate(0deg) translateX(40px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(40px) rotate(-360deg);
+  }
+}
+
+.orbit {
+  animation: orbit 8s linear infinite;
+}
