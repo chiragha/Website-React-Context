@@ -21,20 +21,28 @@ const Hero = () => {
       style={{ backgroundImage: `url(${heroImg})` }}
     >
       <div className="w-full h-full flex flex-col justify-between px-16 py-12">
-
         {/* Top Text */}
-        <div className="max-w-sm font-serif">
-         
-        </div>
+        <div className="max-w-sm font-serif"></div>
 
         {/* Moving Heading */}
         <h1
           style={{ transform: `translateY(${offset * 0.3}px)` }}
-          className="text-[140px] md:text-[180px] font-extrabold text-[#6a0610] leading-none tracking-tight transition-transform duration-75"
+          className="
+    text-[48px] 
+    sm:text-[72px] 
+    md:text-[120px] 
+    lg:text-[160px] 
+    font-extrabold 
+    text-[#6a0610] 
+    leading-none 
+    tracking-tight 
+    transition-transform 
+    duration-75
+    break-words
+  "
         >
           ShineGirl.
         </h1>
-
       </div>
     </section>
   );
