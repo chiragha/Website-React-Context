@@ -1,16 +1,104 @@
-# React + Vite
+# 🛒 E-Commerce React Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **E-Commerce Web Application** built using React.js and Context API for state management.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://website-react-context.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📌 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🛍️ Product Listing (New Arrivals & Collections)
+* 🛒 Add to Cart / Remove from Cart
+* ➕ Increase / Decrease Quantity
+* 💾 Persistent Cart using LocalStorage
+* ⚡ Fast navigation using React Router
+* 🎨 Fully Responsive UI with Tailwind CSS
+* 🔄 Dynamic Cart State using Context API
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎥 Demo Video
+
+https://github.com/user-attachments/assets/11831d98-7d2e-4cf5-b01b-8a0dd3a0b234
+
+
+---
+
+## 🧑‍💻 Tech Stack
+
+* ⚛️ React.js
+* 🌐 React Router
+* 🎯 Context API (State Management)
+* 🎨 Tailwind CSS
+* 💾 LocalStorage
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── components/
+│── context/
+│── pages/
+│── App.js
+│── main.jsx
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/chiragha/Ecommerce_ReactJs.git
+```
+
+Go to project folder:
+
+```bash
+cd Ecommerce_ReactJs
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run project:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🚀 Deployment
+
+Deployed on **Vercel**
+
+---
+
+## 📌 Future Improvements
+
+* 🔐 Authentication (Login / Signup)
+* 💳 Payment Integration
+* 📦 Backend (Node.js / MongoDB)
+* ❤️ Wishlist Feature
+
+---
+
+## 🙋‍♀️ Author
+
+**Shivani Sinha**
+
+* GitHub: https://github.com/chiragha
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
