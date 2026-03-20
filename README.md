@@ -1,6 +1,10 @@
 # 🛒 E-Commerce React Website
 
 A modern and responsive **E-Commerce Web Application** built using React.js and Context API for state management.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Context API](https://img.shields.io/badge/ContextAPI-State%20Management-blue?style=for-the-badge)
+![Vercel](https://img.shields.io/badge/Deployed-Vercel-black?style=for-the-badge&logo=vercel)
 
 🔗 **Live Demo:** https://website-react-context.vercel.app/
 
