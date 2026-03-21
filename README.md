@@ -24,7 +24,8 @@ A modern and responsive **E-Commerce Web Application** built using React.js and 
 
 ## 🎥 Demo Video
 
-![demo](https://github.com/user-attachments/assets/1acdb5ce-769f-4c77-b185-af3906eaa82e)
+![demo]
+![demo](https://github.com/user-attachments/assets/8a6112ff-d193-4757-afeb-54b9df6bbd54)
 
 ---
 
