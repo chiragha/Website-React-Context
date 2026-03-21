@@ -57,7 +57,7 @@ src/
 Clone the repository:
 
 ```bash
-git clone https://github.com/chiragha/Ecommerce_ReactJs.git
+git clone https://github.com/chiragha/Website-React-Context.git
 ```
 
 Go to project folder:
